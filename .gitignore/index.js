@@ -5,7 +5,7 @@ var bot = new Discord.Client();
 var client = bot;
 var prefix = "s.";
 
-bot.login('NTYxODgyMTEyMTY5MzQ1MDU0.XKCrjg.vmzSQBNSUKGALPSyTNFmHyIH_Z8');
+bot.login(process.env.TOKEN);
 
 bot.on('ready', ready => {
     console.clear();
